@@ -13,16 +13,16 @@ here is a script [hostname_change.sh](scripts%2Fhostname_change.sh)
 ![3_executed_hostname_change_sh.png](screenshots%2F3_executed_hostname_change_sh.png)  
 4.2 Rebooted, logged in. hostname did not changed
 
-##### 5. Install "nginx". Check if nginx is running, also use netstat to see which ports are open.
-Submit the result of your work to your GitHub repository, then add a link to the
-folder with the completed task in the response to this task.
-Installed:  
-![5_nginx.png](screenshots%2F5_nginx.png)  
+##### 5. Install "nginx". Check if nginx is running, also use netstat to see which ports are open.  
+5.1 nginx running  
+![5.1_nginx_running.png](screenshots%2F5.1_nginx_running.png)
+Checked ports with netstat:  
+![5.2_ports_with_netstat.png](screenshots%2F5.2_ports_with_netstat.png)
 
-Failed to check is running (same error as with hostname changing):  
-![error.png](screenshots%2Ferror.png)
-System has not been booted with systemd as init system (PID 1). Can't operate.                          Failed to connect to bus: Host is down
-I have WSL Ubuntu 22.04.3 на Windows10
+
+Submit the result of your work to your GitHub repository, then add a link to the
+folder with the completed task in the response to this task. 
+
 
 ###### H/W published: 17.02.2024
 
