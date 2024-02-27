@@ -5,6 +5,7 @@ administrator)
 ![2_add__created_user__sudo_group.png](screenshots%2F2_add__created_user__sudo_group.png)
 ### 3. Create a script in the /home/bob/ directory that, when executed, will change the
 hostname to "ubuntu22". The script's execution attributes should be set exclusively for the user "bob".
+here is a script [hostname_change.sh](scripts%2Fhostname_change.sh)
 #### 4. Run the script. Reboot the system. Log into the system as the "bob"
 user.
 ##### 5. Install "nginx". Check if nginx is running, also use netstat to see which ports are
