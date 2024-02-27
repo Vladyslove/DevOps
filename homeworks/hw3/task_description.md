@@ -1,5 +1,7 @@
-Create a user named "bob".
-Add the created user to the sudo group (so that they can run commands as an
+1. Create a user named "bob".
+![1_create_user_bob.png](screenshots%2F1_create_user_bob.png)
+2. 
+*Add* the created user to the sudo group (so that they can run commands as an
 administrator).
 Create a script in the /home/bob/ directory that, when executed, will change the
 hostname to "ubuntu22". The script's execution attributes should be set exclusively for the user "bob".
