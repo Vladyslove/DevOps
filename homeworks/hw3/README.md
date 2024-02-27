@@ -10,8 +10,9 @@ here is a script [hostname_change.sh](scripts%2Fhostname_change.sh)
 
 #### 4. Run the script. Reboot the system. Log into the system as the "bob" user.
 4.1 Script was run  
-![3-4_executed_hostname_change_sh.png](screenshots%2F3-4_executed_hostname_change_sh.png)
-4.2 Rebooted, logged in. hostname did not changed
+![3_4_hostname_change_script_executed.png](screenshots%2F3_4_hostname_change_script_executed.png)  
+4.2 Rebooted, logged in. hostname changed  
+![3_4_rebooting_result.png](screenshots%2F3_4_rebooting_result.png)
 
 ##### 5. Install "nginx". Check if nginx is running, also use netstat to see which ports are open.  
 5.1 nginx running  
